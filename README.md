@@ -56,5 +56,5 @@ corrigimos erros e verificamos se estava realmente funcional, e subimos ele para
 * Grafo - Algoritmo que contem as funçoes para a execução do menor caminho, distãncia, largura e profundidade.
 * index - Algoritmo para mostramos na tela a saída do algoritmo com uma interface grafica.
 * Main - Algoritmo principal que ultiliza as funçoes dos outro para gerar nossa sáida.
-* README - Markdown.
+* README - (Markdown).
 
