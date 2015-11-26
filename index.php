@@ -12,7 +12,7 @@
 <body>
 	<div id="box">
 	
-		<h1>Trabalho Fernando</h1>
+		<h2>Trabalho Fernando</h2>
 		<form action="Main.php" method="post" enctype="multipart/form-data">
 			<input type="file" name="arquivo">
 			<input type="submit" value="Enviar">
@@ -41,7 +41,7 @@
 			<?php foreach ($profundidade as $value): ?>
 				<?php //var_dump($value) ?>
 				<div class="algoritmos">
-					<h3>PROFUNDIDADE <?php echo implode($value[0], ' '); ?> 
+					<h4>PROFUNDIDADE <?php echo implode($value[0], ' '); ?> 
 						<br>
 						<?php foreach ($value[1] as $k => $v) {
 							if ($k != 0)
@@ -54,7 +54,7 @@
 							}
 
 						} ?>
-					</h3>
+					</h4>
 				</div>
 			<?php endforeach ?>
 		<?php endif ?>
@@ -64,7 +64,7 @@
 			<?php foreach ($largura as $value): ?>
 				<?php //var_dump($value) ?>
 				<div class="algoritmos">
-					<h3>LARGURA <?php echo implode($value[0], ' '); ?> 
+					<h4>LARGURA <?php echo implode($value[0], ' '); ?> 
 						<br>
 						<?php foreach ($value[1] as $k => $v) {
 							if ($k != 0)
@@ -77,7 +77,7 @@
 							}
 
 						} ?>
-					</h3>
+					</h4>
 				</div>
 			<?php endforeach ?>
 		<?php endif ?>
@@ -87,12 +87,12 @@
 			<?php foreach ($menorcaminho as $value): ?>
 				<?php //var_dump($value) ?>
 				<div class="algoritmos">
-					<h3>MENORCAMINHO <?php echo implode($value[0], ' '); ?> 
+					<h4>MENORCAMINHO <?php echo implode($value[0], ' '); ?> 
 						<br>
 						<?php echo implode($value[1]['caminho'], ' '); ?>
 						<br>
 						<?php echo $value[1]['distancia']; ?>
-					</h3>
+					</h4>
 				</div>
 			<?php endforeach ?>
 		<?php endif ?>
