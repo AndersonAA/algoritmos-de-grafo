@@ -12,7 +12,7 @@
 <body>
 	<div id="box">
 	
-		<h1>Trabalho Fernando</h1>
+		<h2>Trabalho Fernando</h2>
 		<form action="Main.php" method="post" enctype="multipart/form-data">
 			<input type="file" name="arquivo">
 			<input type="submit" value="Enviar">
